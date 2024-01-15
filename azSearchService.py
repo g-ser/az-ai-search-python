@@ -4,10 +4,10 @@ from azure.search.documents.indexes import SearchIndexClient
 from azure.search.documents.indexes.models import SearchIndex
 import os
 
-service_endpoint = ''
-index_name = ''
+service_endpoint = '' # provide the service endpoint for your Azure Search service
+index_name = '' # provide the name of the index you want to interact with
 key = os.getenv("AZURE_SEARCH_API_KEY")
-index_name_new = ''
+index_name_new = '' # provide the name of the index you want to create
 
 document =  {
     "id": "1",
