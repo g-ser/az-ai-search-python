@@ -7,7 +7,7 @@ This repo contains a simple Python module which defines some functions for inter
 You can test the [azSearchService](azSearchService.py) module using Python's interpreter in interactive mode. Below the instructions for doing that are listed.
 
 1. Clone the repository in a directory of your choice:
-```git clone git@personal:g-ser/az-ai-search-python.git```
+```git clone git@github.com:g-ser/az-ai-search-python.git```
 2. It is recommended to create a Python virtual environment where the required libraries will be installed. Run the commands below within the ```az-ai-search-python``` folder that you cloned:
     * Create the virtual environment: ```python3 -m venv .venv```
     * Activate virtual environment: ```source .venv/bin/activate```
