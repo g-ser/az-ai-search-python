@@ -36,4 +36,6 @@ After entering the interactive mode by completing all the steps of [Run the modu
 
     ![Upload document](/assets/images/upload_document.png)
 
+* Delete the previously uploaded document [document](azSearchService.py##L12) from the [search index](azSearchService.py##L8) using [delete_document_from_search_index](azSearchService.py##L32) function
 
+    ![Delete document](/assets/images/delete_document.png)
