@@ -22,7 +22,7 @@ You can test the [azSearchService](azSearchService.py) module using Python's int
 6. Make sure that you provide the correct values for the variables ```service_endpoint```, ```index_name``` and ```index_name_new``` in [azSearchService](azSearchService.py) file.
 7. Enter the interpreter's interactive mode by simply typing ```python``` in the CLI. (make sure that you enter the interactive mode while in ```az-ai-search-python``` folder)
 8. Import all the definitions of the [azSearchService](azSearchService.py) by running the following command in the interactive mode: ```from azSearchService import *```
-9. Now you can start calling the functions defined in [azSearchService](azSearchService.py). For example you can get the number of documents in the search index by running: ```get_number_of_documents_in_a_search_index(service_endpoint, index_name, key)``` or you can get all the documents in the search index ```get_all_documents_in_a_search_index(service_endpoint, index_name, key)```
+
 
 # Run the functions included in the module
 
