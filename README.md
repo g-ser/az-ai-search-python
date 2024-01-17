@@ -2,7 +2,7 @@
 
 This repo contains a simple Python module which defines some functions for interacting with Azure's AI search service. For instance it defines functions for creating an index, retrieving the documents of an index, uploading a document to the search index etc. 
 
-# Run the module in interactive mode
+# Run the module in interactive mode<a name="interactive_mode"></a>
 
 You can test the [azSearchService](azSearchService.py) module using Python's interpreter in interactive mode. Below the instructions for doing that are listed.
 
@@ -23,3 +23,17 @@ You can test the [azSearchService](azSearchService.py) module using Python's int
 7. Enter the interpreter's interactive mode by simply typing ```python``` in the CLI. (make sure that you enter the interactive mode while in ```az-ai-search-python``` folder)
 8. Import all the definitions of the [azSearchService](azSearchService.py) by running the following command in the interactive mode: ```from azSearchService import *```
 9. Now you can start calling the functions defined in [azSearchService](azSearchService.py). For example you can get the number of documents in the search index by running: ```get_number_of_documents_in_a_search_index(service_endpoint, index_name, key)``` or you can get all the documents in the search index ```get_all_documents_in_a_search_index(service_endpoint, index_name, key)```
+
+# Run the functions included in the module
+
+After entering the interactive mode by completing all the steps of [Run the module in interactive mode](#interactive_mode) section, you can call the functions defined in the module to experiment. Below you can find some examples:
+
+* Call the [get_number_of_documents_in_a_search_index](azSearchService.py##L19) function
+
+    ![Get documents](/assets/images/get_number_of_documents.png)
+
+* Upload a [document](azSearchService.py##L12) to the [search index](azSearchService.py##L8) using   [upload_document_to_search_index](azSearchService.py##L24) function
+
+    ![Upload document](/assets/images/upload_document.png)
+
+
