@@ -43,3 +43,11 @@ After entering the interactive mode by completing all the steps of [Run the modu
 * List all the documents of the [search index](azSearchService.py#L8) using the function [get_all_documents_in_a_search_index](azSearchService.py#L40)
 
     ![List documents](/assets/images/list_documents.png)
+
+* Create a [new index](azSearchService.py#L10) in the search service using the function [create_index_in_search_service](azSearchService.py#L58)
+
+    ![Create index](/assets/images/create_index.png)
+
+* Delete the [new index](azSearchService.py#L10) from the search service using the function [delete_index_in_search_service](azSearchService.py#L66)
+
+    ![Delete index](/assets/images/delete_index.png)
