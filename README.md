@@ -28,14 +28,18 @@ You can test the [azSearchService](azSearchService.py) module using Python's int
 
 After entering the interactive mode by completing all the steps of [Run the module in interactive mode](#interactive_mode) section, you can call the functions defined in the module to experiment. Below you can find some examples:
 
-* Call the [get_number_of_documents_in_a_search_index](azSearchService.py##L19) function
+* Call the [get_number_of_documents_in_a_search_index](azSearchService.py#L19) function
 
     ![Get documents](/assets/images/get_number_of_documents.png)
 
-* Upload a [document](azSearchService.py##L12) to the [search index](azSearchService.py##L8) using   [upload_document_to_search_index](azSearchService.py##L24) function
+* Upload a [document](azSearchService.py##L12) to the [search index](azSearchService.py#L8) using   [upload_document_to_search_index](azSearchService.py#L24) function
 
     ![Upload document](/assets/images/upload_document.png)
 
-* Delete the previously uploaded document [document](azSearchService.py##L12) from the [search index](azSearchService.py##L8) using [delete_document_from_search_index](azSearchService.py##L32) function
+* Delete the previously uploaded document [document](azSearchService.py#L12) from the [search index](azSearchService.py#L8) using [delete_document_from_search_index](azSearchService.py#L32) function
 
     ![Delete document](/assets/images/delete_document.png)
+
+* List all the documents of the [search index](azSearchService.py#L8) using the function [get_all_documents_in_a_search_index](azSearchService.py#L40)
+
+    ![List documents](/assets/images/list_documents.png)
